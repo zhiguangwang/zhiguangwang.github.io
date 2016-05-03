@@ -59,7 +59,7 @@ html {
 }
 
 body {
-  font-size: 18px;
+  font-size: 16px;
   color: #515151;
   background-color: #fff;
   -webkit-text-size-adjust: 100%;
@@ -89,15 +89,18 @@ h1, h2, h3, h4, h5, h6 {
   text-rendering: optimizeLegibility;
 }
 h1 {
-  font-size: 2rem;
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
 }
 h2 {
-  margin-top: 1rem;
-  font-size: 1.5rem;
+  margin-top: 1.4rem;
+  margin-bottom: 1.4rem;
+  font-size: 1.4rem;
 }
 h3 {
-  margin-top: 1.5rem;
-  font-size: 1.25rem;
+  margin-top: 1.2rem;
+  margin-bottom: 1.2rem;
+  font-size: 1.2rem;
 }
 h4, h5, h6 {
   margin-top: 1rem;
@@ -165,7 +168,7 @@ pre {
   margin-top: 0;
   margin-bottom: 1rem;
   padding: 1rem;
-  font-size: .8rem;
+  font-size: .7rem;
   line-height: 1.4;
   white-space: pre;
   white-space: pre-wrap;
