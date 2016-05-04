@@ -3,7 +3,7 @@ layout: post
 title: Let’s Encrypt!
 ---
 
-关注已久的 [Let’s Encrypt](https://letsencrypt.org/) 进入Public Beta阶段了，于是准备弄一个SSL证书给blog试试。运行环境如下：
+关注已久的 [Let’s Encrypt][1] 进入Public Beta阶段了，于是准备弄一个SSL证书给blog试试。运行环境如下：
 
 - AWS东京Region，EC2为t2.nano
 - AMI为Bitnami提供的wordpress
@@ -83,6 +83,10 @@ sudo /opt/bitnami/ctlscript.sh start apache
 
     0 0 1 * * /home/bitnami/letsencrypt_renew.sh >> /home/bitnami/letsencrypt_renew.log 2>&1
 
-这样就大功告成了。使用 [SSL Labs](https://www.ssllabs.com/index.html) 测试一下证书的配置，Perfect！
+这样就大功告成了。使用 [SSL Labs][2] 测试一下证书的配置，Perfect！
 
-![ssl-labs](/public/img/2016/ssl-labs.png)
+![ssl-labs][3]
+
+[1]: https://letsencrypt.org/
+[2]: https://www.ssllabs.com/index.html
+[3]: /img/2016/ssl-labs.png

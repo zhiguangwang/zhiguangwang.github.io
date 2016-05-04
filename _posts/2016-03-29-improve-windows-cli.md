@@ -41,6 +41,9 @@ title: 改善Windows命令行的表现
 1. `Start -> Run -> regedit.exe`
 2. 若已按照上面第一步在注册表修改了默认的codepage，则删除相应的Autorun值
 3. 删除 `HKEY_CURRENT_USER\Console`，若无此键则跳过
-4. 下载 [Regedit-Console.zip](/public/download/Regedit-Console.zip)，解压出 `Console.reg` 并导入注册表即可
+4. 下载 [Regedit-Console.zip][1]，解压出 `Console.reg` 并导入注册表即可
 
 此配置的设置和上面手动设置完全相同。如果想要恢复命令行到原始配置，则打开注册表，删除 `HKEY_CURRENT_USER\Console` 即可。
+
+[1]: /download/Regedit-Console.zip
+
