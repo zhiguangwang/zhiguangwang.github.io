@@ -30,7 +30,7 @@ title: Let’s Encrypt!
 
 添加SSLCertificate文件：
 
-```apache
+```
 <VirtualHost _default_:443>
     DocumentRoot "/opt/bitnami/apache2/htdocs"
     SSLEngine on
@@ -42,7 +42,7 @@ title: Let’s Encrypt!
 
 增加HSTS支持：
 
-```apache
+```
 <VirtualHost _default_:443>
     DocumentRoot "/opt/bitnami/apache2/htdocs"
     SSLEngine on
@@ -53,7 +53,7 @@ title: Let’s Encrypt!
 
 将所有HTTP流量301重定向到HTTPS：
 
-```apache
+```
 <VirtualHost _default_:80>
     DocumentRoot "/opt/bitnami/apache2/htdocs"
 
