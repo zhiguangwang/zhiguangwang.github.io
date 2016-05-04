@@ -355,6 +355,29 @@ a.sidebar-nav-item:focus {
   color: inherit;
 }
 
+/* Posts index */
+.index {
+  padding-top: 0rem;
+  padding-bottom: 1rem;
+}
+.posts-index {
+  padding-left: 0;
+  list-style: none;
+}
+.posts-index h4 {
+  margin-top: 0;
+}
+.posts-index li small {
+  font-size: 75%;
+  color: #999;
+}
+.posts-index li a:hover {
+  color: #268bd2;
+  text-decoration: none;
+}
+.posts-index li a:hover small {
+  color: inherit;
+}
 
 /*
  * Pagination
