@@ -85,4 +85,4 @@ sudo /opt/bitnami/ctlscript.sh start apache
 
 这样就大功告成了。使用 [SSL Labs](https://www.ssllabs.com/index.html) 测试一下证书的配置，Perfect！
 
-![ssl-labs](/public/img/lets-encrypt_ssl-labs.png)
+![ssl-labs](/public/img/2016/ssl-labs.png)
