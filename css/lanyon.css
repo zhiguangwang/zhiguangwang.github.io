@@ -367,9 +367,18 @@ a.sidebar-nav-item:focus {
 .posts-index h4 {
   margin-top: 0;
 }
+.posts-index li {
+  margin-top: .4em;
+  margin-bottom: .4em;
+}
 .posts-index li small {
+  float: right;
   font-size: 75%;
   color: #999;
+}
+.posts-index li a {
+  color: #000000;
+  text-decoration: none;
 }
 .posts-index li a:hover {
   color: #268bd2;
