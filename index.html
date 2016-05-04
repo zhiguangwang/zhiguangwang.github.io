@@ -9,7 +9,7 @@ title: Home
     {% for post in site.posts %}
       <li>
           <a href="{{ site.baseurl }}{{ post.url }}">
-            <small>{{ post.date | date_to_string }}</small>
+            <small>{{ post.date | date: "%Y-%m-%d" }}</small>
             &nbsp;
             {{ post.title }}
           </a>
