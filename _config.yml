@@ -9,7 +9,7 @@ tagline:             'Technology. Game. Art.'
 description:         'Created by <a href="http://wang.zhiguang.me" target="_blank">Zhiguang Wang</a> using <a href="http://jekyllrb.com" target="_blank">Jekyll</a> and <a href="http://jekyllthemes.io/theme/15489219/lanyon" target="_blank">Lanyon</a>, hosted on <a href="https://pages.github.com" target="_blank">Github Pages</a>.'
 url:                 http://wang.zhiguang.me
 baseurl:             ''
-paginate:            5
+# paginate:            5
 
 # About/contact
 author:
@@ -21,4 +21,4 @@ author:
 # version:             1.0.0
 
 # Gems
-gems: [ jekyll-paginate ]
+# gems: [ jekyll-paginate ]
