@@ -6,7 +6,7 @@ permalink:           pretty
 # Setup
 title:               Zhiguang Wang
 tagline:             'Technology. Game. Art.'
-description:         'Created by <a href="http://wang.zhiguang.me" target="_blank">Zhiguang Wang</a> using <a href="http://jekyllrb.com" target="_blank">Jekyll</a> and <a href="http://jekyllthemes.io/theme/15489219/lanyon" target="_blank">Lanyon</a>, hosted on <a href="https://pages.github.com" target="_blank">Github Pages</a>.'
+description:         'Created by <a href="http://wang.zhiguang.me" target="_blank">Zhiguang Wang</a> using <a href="http://jekyllrb.com" target="_blank">Jekyll</a> and <a href="https://disqus.com" target="_blank">Disqus</a>, hosted on <a href="https://pages.github.com" target="_blank">Github Pages</a>.<br /><br />Theme based on <a href="http://jekyllthemes.io/theme/15489219/lanyon" target="_blank">Lanyon</a>.'
 url:                 http://wang.zhiguang.me
 baseurl:             ''
 # paginate:            5
