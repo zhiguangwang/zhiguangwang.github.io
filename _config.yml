@@ -23,6 +23,8 @@ author:
 
 # Gems
 # gems: [ jekyll-paginate ]
+gems:
+  - jekyll-sitemap
 
 # Defaults
 defaults:
