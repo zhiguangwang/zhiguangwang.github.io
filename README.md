@@ -1,3 +1,3 @@
 # My Blog
 
-[http://wang.zhiguang.me](http://wang.zhiguang.me)
+[http://zhiguang.me](http://zhiguang.me)
